@@ -1,0 +1,260 @@
+body{
+  background-color: rgb(236, 217, 217);
+  margin: 0;
+  
+  padding-top:260px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+
+}
+
+header{
+  background-color: rgb(243, 238, 232);
+  height: 240px;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content:space-between;
+  justify-items: center;
+  z-index: 90;
+
+}
+
+.left{
+  flex:1;
+  display: flex;
+
+  
+}
+
+.middle{
+  
+  position: relative;
+  flex:1;
+}
+
+.right{
+  height: 100%;
+  flex:1;
+  display: flex;
+  position:relative;
+  min-width: 200px;  
+  
+}
+
+
+
+.left-logo, .right-logo{
+  
+  height: 200px;
+  opacity: 0.65;
+  margin-top: 20px;
+  
+  
+  
+  
+  
+}
+
+.right-logo{
+  position: absolute;
+  top:0;
+  right: 0px;
+  
+ 
+  
+}
+
+.title, .subtitle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+
+}
+
+.title{
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 60px;
+  margin-bottom: -20px;
+  color: gray;
+  border-radius: 8px;
+  text-shadow: 50px;
+}
+
+.subtitle{
+  font-size: 20px;
+  color: rgb(15, 131, 15);
+}
+
+.address{
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  line-height: 30px ;
+  white-space: nowrap;
+  
+  
+}
+
+
+
+.servicios-text{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  color: rgb(109, 109, 109);
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-grid{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 80px;
+  justify-items: center;
+  
+  
+  
+  row-gap: 40px;
+  margin-bottom: 75px;
+  
+}
+.content-block{
+  vertical-align: middle;
+  width: 375px;
+  
+  
+  
+}
+.content-title p{
+  
+  text-align: center;
+  color: rgb(15, 131, 15);
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.content-description{
+  
+  line-height: 40px;
+  font-size: 30px;
+  color: black;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  
+  
+  
+  
+ 
+
+  
+  
+}
+
+.content-picture{
+  width: 100%;
+  border: 3px solid gray;
+
+
+}
+
+.doctora-text{
+  
+  font-size: 35px;
+  text-decoration: underline;
+  color: rgb(109, 109, 109);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+
+
+.doctora{
+ 
+  max-height: 500px;
+  border: 3px solid gray;
+  
+  
+}
+
+.doctora-container{
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+
+
+.sobre-doctora {
+  line-height: 40px;
+  font-size: 30px;
+  color: black;
+  max-width: 1200px;
+  
+  
+  border: 1px solid black;
+  padding: 10px;
+  
+ 
+  
+}
+
+
+@media (max-width: 950px){
+  .content-grid{
+    grid-template-columns: 1fr;
+   
+    
+  }
+
+ 
+  
+}
+
+
+@media (min-height: 1740px){
+  .sobre-doctora {
+    font-size: 12px;
+    
+    
+  }
+
+  
+  
+
+ 
+  
+}
+
+
+
+
+
+@media (min-width: 1350px){
+  .content-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  
+  
+
+
+
+  
+}
+
+
