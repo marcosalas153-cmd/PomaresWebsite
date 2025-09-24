@@ -237,6 +237,13 @@ header{
     
     
   }
+
+  .content-title p{
+    font-size: 25px;
+  }
+  .content-description{
+    font-size: 22px;
+  }
   
 
   
@@ -262,5 +269,6 @@ header{
 
   
 }
+
 
 
