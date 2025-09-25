@@ -160,11 +160,11 @@ header{
   line-height: 35px;
   font-size: 25px;
   color: black;
-  word-wrap: break-word;
+  word-break: none;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  max-width: 400px;
-  
+  text-align: left;
+ 
+  padding-left: 22px;
   
   
   
