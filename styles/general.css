@@ -158,7 +158,7 @@ header{
 .content-description{
   
   line-height: 35px;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   word-break: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -216,7 +216,7 @@ header{
   font-size: 30px;
   color: black;
   max-width: 1200px;
-  
+  text-align: left;
   
   border: 1px solid black;
   padding: 10px;
@@ -269,5 +269,6 @@ header{
 
   
 }
+
 
 
