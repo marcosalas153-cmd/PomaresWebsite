@@ -134,6 +134,11 @@ header{
   
   
 }
+
+.content-title .dermapen{
+  font-size: 24px;
+  padding-top: 8px;
+}
 .content-title p{
   
   text-align: center;
@@ -147,6 +152,8 @@ header{
   
 
 }
+
+
 
 .content-description{
   
@@ -237,13 +244,8 @@ header{
     
     
   }
-
-  .content-title p{
-    font-size: 25px;
-  }
   
   
-
   
   
 
@@ -267,8 +269,5 @@ header{
 
   
 }
-
-
-
 
 
