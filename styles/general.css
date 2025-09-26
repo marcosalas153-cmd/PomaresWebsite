@@ -129,7 +129,7 @@ header{
 .content-block{
   justify-content: center;
   justify-items: center;
-  width: 300px;
+  width: 385px;
   text-align: center;
   
   
@@ -164,7 +164,7 @@ header{
   word-break: none;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  width: 370px;
+  
   padding-left: 15px;
  
   
@@ -257,6 +257,7 @@ header{
 
   
 }
+
 
 
 
