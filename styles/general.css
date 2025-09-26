@@ -2,9 +2,9 @@ body{
   background-color: rgb(236, 217, 217);
   margin: 0;
   
-  padding-top:260px ;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top:240px ;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
   
 
@@ -12,7 +12,7 @@ body{
 
 header{
   background-color: rgb(243, 238, 232);
-  height: 245px;
+  height: 220px;
   position: fixed;
   top:0;
   right: 0;
@@ -78,8 +78,8 @@ header{
 
 .title{
   font-weight: bold;
-  margin-top: 15px;
-  font-size: 60px;
+  margin-top: 5px;
+  font-size: 65px;
   margin-bottom: -20px;
   color: gray;
   border-radius: 8px;
@@ -94,10 +94,10 @@ header{
 .address{
   text-align: center;
   color: black;
-  font-size: 25px;
-  line-height: 35px ;
+  font-size: 22px;
+  line-height: 30px ;
   white-space: nowrap;
-  margin-top: 5px;
+  margin-top: -5px;
   
 }
 
@@ -108,14 +108,14 @@ header{
   font-size: 40px;
   font-weight: bold;
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   color: rgb(109, 109, 109);
   text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content-grid{
-  margin-top: 10px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr ;
   column-gap: 80px;
@@ -129,8 +129,9 @@ header{
 .content-block{
   justify-content: center;
   justify-items: center;
-  width: 420px;
+  width: 300px;
   text-align: center;
+  
   
   
 }
@@ -158,14 +159,14 @@ header{
 .content-description{
   
   line-height: 35px;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   word-break: none;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
+  width: 370px;
+  padding-left: 15px;
  
-  padding-left: 22px;
-  
   
   
  
@@ -197,7 +198,7 @@ header{
 
 .doctora{
  
-  max-height: 500px;
+  max-height: 400px;
   border: 3px solid gray;
   
   
@@ -212,12 +213,12 @@ header{
 
 
 .sobre-doctora {
-  line-height: 40px;
-  font-size: 30px;
+  line-height: 30px;
+  font-size: 20px;
   color: black;
-  max-width: 1200px;
+  max-width: 1200px ;
   text-align: left;
-  
+  font-family: Arial, Helvetica, sans-serif;
   border: 1px solid black;
   padding: 10px;
   
@@ -238,20 +239,7 @@ header{
 }
 
 
-@media (min-height: 1740px){
-  .sobre-doctora {
-    font-size: 50px;
-    
-    
-  }
-  
-  
-  
-  
 
- 
-  
-}
 
 
 
@@ -269,7 +257,5 @@ header{
 
   
 }
-
-
 
 
