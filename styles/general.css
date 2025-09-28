@@ -101,6 +101,18 @@ header{
   
 }
 
+.language-button{
+  
+  text-align: center;
+  margin-bottom: 25px;
+  
+  
+}
+
+.language-button button{
+  width: 100px;
+
+}
 
 
 .servicios-text{
@@ -257,7 +269,5 @@ header{
 
   
 }
-
-
 
 
