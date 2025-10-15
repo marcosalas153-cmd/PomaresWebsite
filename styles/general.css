@@ -146,6 +146,7 @@ header{
   
   
   
+  
 }
 
 .content-title .dermapen{
@@ -175,9 +176,14 @@ header{
   color: black;
   word-break: none;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10px;
   
-  padding-left: 15px;
+  
+  border-radius: 10px;
+
+ 
  
   
   
@@ -190,7 +196,7 @@ header{
 .content-picture{
   width: 350px;
   height: 200px;
-  border: 3px solid gray;
+  border: 1px solid gray;
   
 
 }
@@ -231,7 +237,9 @@ header{
   max-width: 1200px ;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
+  border: 3px solid gray;
+  
+
   padding: 10px;
   
  
@@ -270,5 +278,7 @@ header{
   
 }
 
+
+ 
 
 
