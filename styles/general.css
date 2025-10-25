@@ -167,6 +167,13 @@ header{
 
 }
 
+.pic-desc{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
 
 
 .content-description{
@@ -177,11 +184,11 @@ header{
   word-break: none;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  border: 1px solid gray;
-  padding: 10px;
   
   
-  border-radius: 10px;
+  
+  
+  
 
  
  
@@ -196,7 +203,7 @@ header{
 .content-picture{
   width: 350px;
   height: 200px;
-  border: 1px solid gray;
+  
   
 
 }
@@ -217,7 +224,8 @@ header{
 .doctora{
  
   max-height: 400px;
-  border: 3px solid gray;
+  width: 300px;
+  border: 2px solid gray;
   
   
 }
@@ -237,8 +245,8 @@ header{
   max-width: 1200px ;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  border: 3px solid gray;
-  
+  border: 1px solid gray;
+  border-radius: 10px;
 
   padding: 10px;
   
@@ -280,6 +288,5 @@ header{
 
 
  
-
 
 
