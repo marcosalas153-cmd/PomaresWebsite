@@ -242,13 +242,14 @@ header{
   line-height: 30px;
   font-size: 18px;
   color: black;
-  width: 900px ;
+  max-width: 1000px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid gray;
   border-radius: 10px;
-
+  display: flex;
   padding: 10px;
+  margin: 15px;
   
  
   
@@ -288,6 +289,7 @@ header{
 
 
  
+
 
 
 
